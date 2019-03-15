@@ -13,19 +13,25 @@
         android:orientation="vertical">
         
         <EditText
+            android:id="@+id/edit1_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/user"/>
+            android:hint="@string/user"
+            android:layout_marginTop="86dp"/>
 
         <EditText
+            android:id="@+id/edit2_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/pass"/>
+            android:hint="@string/pass"
+            android:layout_marginTop="20dp"/>
 
         <Button
             android:id="@+id/button1_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/B_send" />
+            android:text="@string/B_send"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center">
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
