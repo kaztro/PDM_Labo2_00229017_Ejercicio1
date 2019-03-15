@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE android.support.constraint.ConstraintLayout [<!ELEMENT android.support.constraint.ConstraintLayout (LinearLayout)*><!ATTLIST android.support.constraint.ConstraintLayoutxmlns:android CDATA #REQUIREDxmlns:app CDATA #REQUIREDxmlns:tools CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDtools:context CDATA #REQUIRED><!ELEMENT LinearLayout (EditText)*><!ATTLIST LinearLayoutandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:orientation CDATA #REQUIRED><!ELEMENT EditText (#PCDATA)><!ATTLIST EditTextandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:layout_weight CDATA #REQUIREDandroid:hint CDATA #REQUIRED>]>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE android.support.constraint.ConstraintLayout>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,14 +17,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/user"
-            android:layout_marginTop="86dp"/>
+            android:layout_marginTop="86dp" />
 
         <EditText
             android:id="@+id/edit2_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/pass"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp" />
 
         <Button
             android:id="@+id/button1_id"
@@ -32,6 +32,13 @@
             android:layout_height="wrap_content"
             android:text="@string/B_send"
             android:layout_marginTop="30dp"
-            android:layout_gravity="center">
+            android:layout_gravity="center" />
+
+         <TextView
+             android:id="@+id/textV_id"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="30dp"
+             android:layout_gravity="center" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
